@@ -1,5 +1,271 @@
 
-html{height: 800px;}
+
+
+body {
+	
+	
+}
+
+
+.box {
+	
+	font-family: oswald;
+	text-transform: uppercase;
+	  width: 100%;
+	  height: 22px;
+	  background-color: ;
+	  margin: 29px -18px 28px 0px;
+	  align-items: center;
+	  float: left;
+	  font-size: 5em;
+	  padding: 36px;
+	  padding-top: 36x;
+	  padding-bottom: 36px;
+	  padding-top: 36px;
+	  padding-bottom: 36px;
+	  padding-bottom: 36px;
+	  color: #1e60db;
+	  font-weight: 100;
+	  padding-bottom: 1px;
+	  padding-top: 2px;
+	  letter-spacing: 1px;
+	  text-align: center;
+  }
+  
+		  .sinir { 
+			
+		
+			
+	
+	width:100%;
+	text-align: center;
+	/*
+	background-color:#fcfcfc;width:500px;    
+	margin: -6px 530px;*/}
+   .sinir img {
+	
+   }
+		  
+		  .btn:hover {
+	  border-color: #fff;
+	  background: #222;
+	  color: #fff;
+  }
+  
+  @-webkit-keyframes aniload {
+	from {-webkit-transform:translate(0px, 1000px)}
+	to   {-webkit-transform:translate(0px, 0px)}
+  }
+  
+  @-moz-keyframes aniload {
+	from {-moz-transform:translate(0px, 1000px)}
+	to   {-moz-transform:translate(0px, 0px)}
+  }
+  
+  @-ms-keyframes aniload {
+	from {-ms-transform:translate(0px, 1000px)}
+	to   {-ms-transform:translate(0px, 0px)}
+  }
+  
+  @-o-keyframes aniload {
+	from {-o-transform:translate(0px, 1000px)}
+	to   {-o-transform:translate(0px, 0px)}
+  }
+  
+  @keyframes aniload {
+	from {transform:translate(0px, 1000px)}
+	to   {transform:translate(0px, 0px)}
+  }
+  
+  
+  #box1 {
+	  
+	
+	margin-top: 25Px;
+   
+  /*  margin-left: -15px;*/
+	-webkit-animation:aniload 1s;
+	-moz-animation:aniload 1s;
+	-ms-animation:aniload 1s;
+	-o-animation:aniload 1s;
+	animation:aniload 1s;
+	
+  }
+  
+  #box2 {
+	  
+	-webkit-animation:aniload 2.5s;
+	-moz-animation:aniload 2.5s;
+	-ms-animation:aniload 2.5s;
+	-o-animation:aniload 2.5s;
+	animation:aniload 2.5s;
+  }
+  
+  #box3 { 
+	 
+	-webkit-animation:aniload 3.5s;
+	-moz-animation:aniload 3.5s;
+	-ms-animation:aniload 3.5s;
+	-o-animation:aniload 3.5s;
+	animation:aniload 3.5s;
+  }
+  
+  #box4 {
+	-webkit-animation:aniload 4s;
+	-moz-animation:aniload 4s;
+	-ms-animation:aniload 4s;
+	-o-animation:aniload 4s;
+	animation:aniload 4s;
+	
+  }
+  
+  #box5 {
+	-webkit-animation:aniload 2s;
+	-moz-animation:aniload 2s;
+	-ms-animation:aniload 2s;
+	-o-animation:aniload 2s;
+	animation:aniload 2s;
+  }
+  
+
+img {margin: 0 auto;
+	position: fixed;
+	left: 0px;
+	top:0px;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+	background-color: #444;
+	
+  }
+  
+  #wrapper {
+	margin-left: 15%;
+  }
+  
+  .image {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+  }
+  
+  .img1 {
+	-webkit-animation: appear 1s;
+	animation: appear 1s;
+	background-color: pink;
+  }
+  
+  .img2 {
+	-webkit-animation: appear 2s;
+	animation: appear 2s;
+	background-color: orange;
+  }
+  
+  .img3 {
+	-webkit-animation: appear 3s;
+	animation: appear 3s;
+	background-color: gold;
+  }
+  
+  .img4 {
+	-webkit-animation: appear 4s;
+	animation: appear 4s;
+	background-color: lightgreen;
+  }
+  
+  .img5 {
+	-webkit-animation: appear 5s;
+	animation: appear 5s;
+	background-color: teal;
+  }
+  
+  /* Chrome, Safari, Opera */
+  /* @-webkit-keyframes appear {
+	  0%   {opacity: 0; margin-left: -25%;}
+	  100% {opacity: 1;}
+  }
+   */
+  /* IE */
+  /* @keyframes appear {
+	  0%   {opacity: 0; margin-left: -25%;}
+	  100% {opacity: 1;}
+  }
+   */
+  /* .img1 {
+	z-index: 1;
+  }
+  .img2 {
+	z-index: 2;
+	margin-left: 100px;
+	margin-top: 100px;
+  }
+  
+  .img3 {
+	z-index: 3;
+	margin-left: 200px;
+	margin-top: 200px;
+  }
+  
+  .img4 {
+	z-index: 4;
+	margin-left: 300px;
+	margin-top: 300px;
+  }
+  
+  .img5 {
+	z-index: 5;
+	margin-left: 400px;
+	margin-top: 400px;
+  }
+  
+  .img1:hover{
+	z-index:10;
+  }
+  .img2:hover{
+	z-index:9;
+  }
+  .img3:hover{
+	z-index:8;
+  }
+  .img4:hover{
+	z-index: 7;
+  }
+  .img5:hover{
+	z-index: 6;
+  }
+  
+  .img1, .img2, .img3, .img4, .img5 {
+	transition: all 2s;
+  
+  }
+  
+  .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover {
+	-webkit-tranform: rotate(360deg);
+	 transform: rotate(360deg);
+  } */ */
+  
+
+
+
+
+
+
+
+
+
+/* html{height: 800px;}
 body {height: 800px;
 }
 
@@ -115,4 +381,4 @@ h4{
     background-position-x: 0%;
     background-position-y: 67%;
    
-}
+} */
