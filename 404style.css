@@ -3,25 +3,18 @@
 
 body {
 	background-position: 5.5% 40%;
-	overflow-y: hidden;
-	overflow-x: hidden;
 	background-color: #342643;
-	height: 1080px;
 	background-image: url(patin.jpg);
 	background-size: 29%;
 	/* background-position: 0% 25%; */
 	background-repeat: no-repeat;
 }
-/* $color1: #EE4B5E;
-$color2: #342643;
-$color3: #1FA9D6; */
+
 
 
 .myButton {
+	margin-top: 9.5em;
 	position:relative;
-	/* top: 62%;
-	left: 48%; */
-	margin-left: 60%;
 	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
 	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
 	box-shadow:inset 0px 1px 3px 0px #91b8b3;
@@ -71,29 +64,28 @@ span {
 
 
 .box {
-	
 	font-family: oswald;
 	text-transform: uppercase;
-	  width: 100%;
-	  height: 22px;
-	  background-color: ;
-	  margin: 329px -18px 28px 0px;
-	  align-items: center;
-	  float: left;
-	  font-size: 5em;
-	  padding: 36px;
-	  padding-top: 36x;
-	  padding-bottom: 36px;
-	  padding-top: 36px;
-	  padding-bottom: 36px;
-	  padding-bottom: 36px;
-	  color: #EE4B5E;
-	  font-weight: 100;
-	  padding-bottom: 1px;
-	  padding-top: 2px;
-	  letter-spacing: 1px;
-	  text-align: center;
-  }
+	width: 100%;
+	height: 22px;
+	background-color: ;
+	/* margin: 329px -18px 28px 0px; */
+	align-items: center;
+	float: left;
+	font-size: 3em;
+	/* padding: 36px; */
+	padding-top: 36x;
+	padding-bottom: 36px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+	padding-bottom: 36px;
+	color: #EE4B5E;
+	font-weight: 100;
+	padding-bottom: 1px;
+	padding-top: 2px;
+	/* letter-spacing: 1px; */
+	text-align: center;
+}
   
 		  .sinir { 
 			
@@ -143,9 +135,9 @@ span {
   
   #box1 {
 	  
-	
-	margin-top: 25Px;
-   line-height: 1.3em;
+		margin-top: 185Px;
+    line-height: 1.3em;
+
   /*  margin-left: -15px;*/
 	-webkit-animation:aniload 1s;
 	-moz-animation:aniload 1s;
@@ -156,8 +148,8 @@ span {
   }
   
   #box2 {
-	margin-top: 311px;
-    margin-bottom: 44px;
+	margin-top: 219px;
+    margin-bottom: 0px;
 	-webkit-animation:aniload 2.5s;
 	-moz-animation:aniload 2.5s;
 	-ms-animation:aniload 2.5s;
@@ -206,250 +198,3 @@ img {margin: 0 auto;
 	width: 20%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* body {
-	background-color: #444;
-	
-  }
-  
-  #wrapper {
-	margin-left: 15%;
-  }
-  
-  .image {
-	position: absolute;
-	width: 500px;
-	height: 500px;
-  }
-  
-  .img1 {
-	-webkit-animation: appear 1s;
-	animation: appear 1s;
-	background-color: pink;
-  }
-  
-  .img2 {
-	-webkit-animation: appear 2s;
-	animation: appear 2s;
-	background-color: orange;
-  }
-  
-  .img3 {
-	-webkit-animation: appear 3s;
-	animation: appear 3s;
-	background-color: gold;
-  }
-  
-  .img4 {
-	-webkit-animation: appear 4s;
-	animation: appear 4s;
-	background-color: lightgreen;
-  }
-  
-  .img5 {
-	-webkit-animation: appear 5s;
-	animation: appear 5s;
-	background-color: teal;
-  }
-  
-  /* Chrome, Safari, Opera */
-  /* @-webkit-keyframes appear {
-	  0%   {opacity: 0; margin-left: -25%;}
-	  100% {opacity: 1;}
-  }
-   */
-  /* IE */
-  /* @keyframes appear {
-	  0%   {opacity: 0; margin-left: -25%;}
-	  100% {opacity: 1;}
-  }
-   */
-  /* .img1 {
-	z-index: 1;
-  }
-  .img2 {
-	z-index: 2;
-	margin-left: 100px;
-	margin-top: 100px;
-  }
-  
-  .img3 {
-	z-index: 3;
-	margin-left: 200px;
-	margin-top: 200px;
-  }
-  
-  .img4 {
-	z-index: 4;
-	margin-left: 300px;
-	margin-top: 300px;
-  }
-  
-  .img5 {
-	z-index: 5;
-	margin-left: 400px;
-	margin-top: 400px;
-  }
-  
-  .img1:hover{
-	z-index:10;
-  }
-  .img2:hover{
-	z-index:9;
-  }
-  .img3:hover{
-	z-index:8;
-  }
-  .img4:hover{
-	z-index: 7;
-  }
-  .img5:hover{
-	z-index: 6;
-  }
-  
-  .img1, .img2, .img3, .img4, .img5 {
-	transition: all 2s;
-  
-  }
-  
-  .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover {
-	-webkit-tranform: rotate(360deg);
-	 transform: rotate(360deg);
-  } */ 
-  
-
-
-
-
-
-
-
-
-
-/* html{height: 800px;}
-body {height: 800px;
-}
-
-.myButton {margin-left: 40%;
-	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
-	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
-	box-shadow:inset 0px 1px 3px 0px #91b8b3;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3eb5a9), color-stop(1, #3eb5a9));
-	background:-moz-linear-gradient(top, #768d87 5%, #3eb5a9 100%);
-	background:-webkit-linear-gradient(top, #768d87 5%, #3eb5a9 100%);
-	background:-o-linear-gradient(top, #768d87 5%, #3eb5a9 100%);
-	background:-ms-linear-gradient(top, #768d87 5%, #3eb5a9 100%);
-	background:linear-gradient(to bottom, #768d87 5%, #3eb5a9 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
-	background-color:#768d87;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	border:1px solid #566963;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:21px;
-	font-weight:bold;
-	padding:11px 23px;
-	text-decoration:none;
-	text-shadow:0px -1px 0px #2b665e;
-}
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
-	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
-	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
-	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
-	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
-	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
-	background-color:#6c7c7c;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-h1{text-align: center;
-    font-size: 7em;
-    -webkit-transition: -webkit-transform 0.8s ease-in-out;
-          transition:         transform 0.8s ease-in-out;
-    font-family: 'Coiny', cursive;
-    color:rgb(207, 204, 187);
-}
-
-h1:hover{color: rgb(207, 204, 187);
-    font-size: 7em;
-    opacity: 0.3;
-    -webkit-transform: rotate(2360deg);
-    transform: rotate(2360deg);
-}
-
-h2{
-    font-family: Coiny;
-    text-align: center;
-	color: rgb(207, 204, 187);
-	font-size: 3em;
-}
-h3{text-align:center;
-color:rgb(207, 204, 187);
-font-family: Coiny;
-font-size: 4em;
-
-}
-
-h4{
-	color: #646251;
-    margin-top: 25%;
-    font-family: roboto;
-    text-align: right;
-    margin-right: 4%;
-}
-
-
-
-#tete {background-color: darkkhaki;
-    width: 100%;
-    height: 800px;
-    
-}
-
-#left {background-color:#827f6d;
-    width: 50%;
-    float: left;
-    height: 800px;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#right {    background-image: url(patin.jpg);
-    width: 50%;
-    float: left;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 0%;
-    background-position-y: 67%;
-   
-} */
