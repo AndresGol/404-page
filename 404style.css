@@ -1,20 +1,27 @@
 
 
 
-body {overflow-y: hidden;
+body {
+	background-position: 5.5% 40%;
+	overflow-y: hidden;
 	overflow-x: hidden;
-	background-color: #f1f0e6;
+	background-color: #342643;
 	height: 1080px;
 	background-image: url(patin.jpg);
-	background-size: 40%;
+	background-size: 29%;
 	/* background-position: 0% 25%; */
 	background-repeat: no-repeat;
 }
+/* $color1: #EE4B5E;
+$color2: #342643;
+$color3: #1FA9D6; */
+
+
 .myButton {
-	position: fixed;
-	top: 10%;
-	left: 1%;;
-	margin-left: 0%;
+	position:relative;
+	/* top: 62%;
+	left: 48%; */
+	margin-left: 60%;
 	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
 	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
 	box-shadow:inset 0px 1px 3px 0px #91b8b3;
@@ -25,7 +32,7 @@ body {overflow-y: hidden;
 	background:-ms-linear-gradient(top, #768d87 5%, #3eb5a9 100%);
 	background:linear-gradient(to bottom, #768d87 5%, #3eb5a9 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
-	background-color:#768d87;
+	background-color:#1FA9D6;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
@@ -56,7 +63,9 @@ body {overflow-y: hidden;
 }
 
 span {
-	font-size: 30px;
+	font-size: 24px;
+	color: #76daff;
+	/* line-height: 1em; */
 	
 }
 
@@ -78,7 +87,7 @@ span {
 	  padding-top: 36px;
 	  padding-bottom: 36px;
 	  padding-bottom: 36px;
-	  color: #1e60db;
+	  color: #EE4B5E;
 	  font-weight: 100;
 	  padding-bottom: 1px;
 	  padding-top: 2px;
@@ -136,7 +145,7 @@ span {
 	  
 	
 	margin-top: 25Px;
-   
+   line-height: 1.3em;
   /*  margin-left: -15px;*/
 	-webkit-animation:aniload 1s;
 	-moz-animation:aniload 1s;
@@ -147,7 +156,7 @@ span {
   }
   
   #box2 {
-	margin-top: 270px;
+	margin-top: 311px;
     margin-bottom: 44px;
 	-webkit-animation:aniload 2.5s;
 	-moz-animation:aniload 2.5s;
@@ -157,7 +166,7 @@ span {
   }
   
   #box3 { 
-	 margin-top: 20px;
+	 margin-top: 190px;
 	-webkit-animation:aniload 3.5s;
 	-moz-animation:aniload 3.5s;
 	-ms-animation:aniload 3.5s;
@@ -166,6 +175,7 @@ span {
   }
   
   #box4 {
+		margin-top: 2em;
 	-webkit-animation:aniload 4s;
 	-moz-animation:aniload 4s;
 	-ms-animation:aniload 4s;
@@ -174,8 +184,9 @@ span {
 	
   }
   #box4 p {
-	margin-top: -55px;
-    font-size: 31px;
+		color: #76daff;
+    margin-top: -87px;
+    font-size: 22px;
   }
   
   #box5 {
