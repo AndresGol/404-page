@@ -13,7 +13,8 @@ body {
 
 
 .myButton {
-	margin-top: 9.5em;
+	margin-top: 7.5em;
+	margin-bottom: 3em;
 	position:relative;
 	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
 	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
@@ -63,7 +64,11 @@ span {
 }
 
 
+
+
+
 .box {
+
 	font-family: oswald;
 	text-transform: uppercase;
 	width: 100%;
@@ -88,7 +93,7 @@ span {
 }
   
 		  .sinir { 
-			
+				
 		
 			
 	
@@ -190,7 +195,9 @@ span {
   }
   
 
-img {margin: 0 auto;
+img {
+
+	margin: 0 auto;
 	position: fixed;
 	left: 0px;
 	top:0px;
